@@ -266,12 +266,24 @@ http://www.templatemo.com/preview/templatemo_427_timeline
     display: block;
 }
 
+.icon-see {
+    width: 20px !important; 
+    height: 20px !important; 
+    border: none !important; 
+    margin-left: 1rem !important;
+    transition: all .5s;
+}
+
+.icon-see:hover {
+    transform: scale(1.2) !important;
+}
+
 @media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
     .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
-        -webkit-animation: cd-bounce-2-inverse 0.6s;
-        -moz-animation: cd-bounce-2-inverse 0.6s;
-        animation: cd-bounce-2-inverse 0.6s;
+        -webkit-animation: cd-bounce-2-inverse 2.6s;
+        -moz-animation: cd-bounce-2-inverse 2.6s;
+        animation: cd-bounce-2-inverse 2.6s;
     }
 }
 
@@ -471,9 +483,9 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
     .cssanimations .cd-timeline-img.bounce-in {
         visibility: visible;
-        -webkit-animation: cd-bounce-1 0.6s;
-        -moz-animation: cd-bounce-1 0.6s;
-        animation: cd-bounce-1 0.6s;
+        -webkit-animation: cd-bounce-1 1.6s;
+        -moz-animation: cd-bounce-1 1.6s;
+        animation: cd-bounce-1 1.6s;
     }
 
     #cd-timeline, #cd-timeline-2 {
@@ -550,9 +562,9 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
     .cssanimations .cd-timeline-content.bounce-in {
         visibility: visible;
-        -webkit-animation: cd-bounce-2 0.6s;
-        -moz-animation: cd-bounce-2 0.6s;
-        animation: cd-bounce-2 0.6s;
+        -webkit-animation: cd-bounce-2 1.6s;
+        -moz-animation: cd-bounce-2 1.6s;
+        animation: cd-bounce-2 1.6s;
     }
 }
 

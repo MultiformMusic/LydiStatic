@@ -19,58 +19,67 @@ $(document).ready(function() {
 
   $("#porcelenaDescription").inViewport(function(px){
       if(px) {
-          $("#porcelenaDescription").addClass("fadeInUp") ;
+          $("#porcelenaDescription").addClass("fadeInUp");
+          $("#porcelenaDescription").css("opacity", "1");
       }
   });
 
   $("#porcelenaTimelineContent").inViewport(function(px){
       if(px) {
-          $("#porcelenaTimelineContent").addClass("bounce-in") ;
+          $("#porcelenaTimelineContent").addClass("bounce-in");
+          $("#porcelenaTimelineContent").css("opacity", "1");
       }
   });
 
   $("#porcelenaProjectContent").inViewport(function(px){
       if(px) {
-          $("#porcelenaProjectContent").addClass("fadeInLeft") ;
+          $("#porcelenaProjectContent").addClass("fadeInLeft");
+          $("#porcelenaProjectContent").css("opacity", "1");
       }
   });
 
 
   $("#paintingDescription").inViewport(function(px){
     if(px) {
-        $("#paintingDescription").addClass("fadeInUp") ;
+        $("#paintingDescription").addClass("fadeInUp");
+        $("#paintingDescription").css("opacity", "1");
     }
   });
 
   $("#paintingTimelineContent").inViewport(function(px){
     if(px) {
-        $("#paintingTimelineContent").addClass("bounce-in") ;
+        $("#paintingTimelineContent").addClass("bounce-in");
+        $("#paintingTimelineContent").css("opacity", "1");
     }
   });
 
   $("#paintingProjectContent").inViewport(function(px){
     if(px) {
-        $("#paintingProjectContent").addClass("fadeInRight") ;
+        $("#paintingProjectContent").addClass("fadeInRight");
+        $("#paintingProjectContent").css("opacity", "1");
     }
   });
 
 
   $("#biographyDescription").inViewport(function(px){
     if(px) {
-        $("#biographyDescription").addClass("fadeInUp") ;
+        $("#biographyDescription").addClass("fadeInUp");
+        $("#biographyDescription").css("opacity", "1");
     }
   });
 
   $("#biographyTimelineContent").inViewport(function(px){
     if(px) {
-        $("#biographyTimelineContent").addClass("bounce-in") ;
+        $("#biographyTimelineContent").addClass("bounce-in");
+        $("#biographyTimelineContent").css("opacity", "1");
     }
   });
 
   $("#biographyProjectContent").inViewport(function(px){
     if(px) {
-        $("#biographyProjectContent").addClass("fadeInLeft") ;
+        $("#biographyProjectContent").addClass("fadeInLeft");
+        $("#biographyProjectContent").css("opacity", "1");
     }
   });
-  
+
 });
