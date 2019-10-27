@@ -18,6 +18,7 @@ $(document).ready(function() {
 
   $("#porcelenaDescription").inViewport(function(px){
       if(px) {
+          $("#porcelenaDescription").css("opacity", "0");
           $("#porcelenaDescription").addClass("fadeInUp");
           $("#porcelenaDescription").css("opacity", "1");
       }
@@ -25,6 +26,7 @@ $(document).ready(function() {
 
   $("#porcelenaTimelineContent").inViewport(function(px){
       if(px) {
+        $("#porcelenaTimelineContent").css("opacity", "0");
           $("#porcelenaTimelineContent").addClass("bounce-in");
           $("#porcelenaTimelineContent").css("opacity", "1");
       }
@@ -32,6 +34,7 @@ $(document).ready(function() {
 
   $("#porcelenaProjectContent").inViewport(function(px){
       if(px) {
+        $("#porcelenaProjectContent").css("opacity", "0");
           $("#porcelenaProjectContent").addClass("fadeInLeft");
           $("#porcelenaProjectContent").css("opacity", "1");
       }
@@ -40,6 +43,7 @@ $(document).ready(function() {
 
   $("#paintingDescription").inViewport(function(px){
     if(px) {
+        $("#paintingDescription").css("opacity", "0");
         $("#paintingDescription").addClass("fadeInUp");
         $("#paintingDescription").css("opacity", "1");
     }
@@ -47,6 +51,7 @@ $(document).ready(function() {
 
   $("#paintingTimelineContent").inViewport(function(px){
     if(px) {
+        $("#paintingTimelineContent").css("opacity", "0");
         $("#paintingTimelineContent").addClass("bounce-in");
         $("#paintingTimelineContent").css("opacity", "1");
     }
@@ -54,6 +59,7 @@ $(document).ready(function() {
 
   $("#paintingProjectContent").inViewport(function(px){
     if(px) {
+      $("#paintingProjectContent").css("opacity", "0");
         $("#paintingProjectContent").addClass("fadeInLeft");
         $("#paintingProjectContent").css("opacity", "1");
     }
@@ -62,6 +68,7 @@ $(document).ready(function() {
 
   $("#biographyDescription").inViewport(function(px){
     if(px) {
+        $("#biographyDescription").css("opacity", "0");
         $("#biographyDescription").addClass("fadeInUp");
         $("#biographyDescription").css("opacity", "1");
     }
@@ -69,6 +76,7 @@ $(document).ready(function() {
 
   $("#biographyTimelineContent").inViewport(function(px){
     if(px) {
+        $("#biographyTimelineContent").css("opacity", "0");
         $("#biographyTimelineContent").addClass("bounce-in");
         $("#biographyTimelineContent").css("opacity", "1");
     }
@@ -76,6 +84,7 @@ $(document).ready(function() {
 
   $("#biographyProjectContent").inViewport(function(px){
     if(px) {
+        $("#biographyProjectContent").css("opacity", "0");
         $("#biographyProjectContent").addClass("fadeInLeft");
         $("#biographyProjectContent").css("opacity", "1");
     }
