@@ -4,7 +4,7 @@
        return this.each(function(i,el){
          function visPx(){
 
-           var H = $(this).height() + 35,
+           var H = $(this).height() + 100,
                r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
            return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
          } visPx();
