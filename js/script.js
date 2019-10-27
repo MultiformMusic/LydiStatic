@@ -6,7 +6,6 @@
 
            var H = $(this).height(),
                r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
-               console.log("H = ", H);
            return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
          } visPx();
          $(win).on("resize scroll", visPx);
@@ -55,7 +54,7 @@ $(document).ready(function() {
 
   $("#paintingProjectContent").inViewport(function(px){
     if(px) {
-        $("#paintingProjectContent").addClass("fadeInRight");
+        $("#paintingProjectContent").addClass("fadeInLeft");
         $("#paintingProjectContent").css("opacity", "1");
     }
   });
