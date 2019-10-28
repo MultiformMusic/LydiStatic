@@ -458,10 +458,18 @@ http://www.templatemo.com/preview/templatemo_427_timeline
     }
 }
 
-@media (max-width:350px) {
+@media (max-width:400px) {
 
     .projects img {
         width: 24rem;
+    }
+
+    .margin-block {
+        margin-top: 9rem;
+    }
+
+    .cd-timeline-text-left, .cd-timeline-text-right {
+        padding: .8rem;
     }
 }
 
